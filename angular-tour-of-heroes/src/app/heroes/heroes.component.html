@@ -1,0 +1,13 @@
+<h2>{{hero.f_name | uppercase}} Details</h2>
+<div><span>id: </span>{{hero.id}}</div>
+<div><span>first name: </span>{{hero.f_name}}</div>
+<div><span>last name: </span>{{hero.l_name}}</div>
+
+<div>
+    <label>first name:
+      <input [(ngModel)]="hero.f_name" placeholder="first name"/>
+    </label>
+    <label>last name:
+      <input [(ngModel)]="hero.l_name" placeholder="last name"/>
+    </label>
+</div>
