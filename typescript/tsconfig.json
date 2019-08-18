@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+        "noEmitOnError": false,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "suppressImplicitAnyIndexErrors": false,
+        "declaration": false,
+        "outDir": "dist",
+        "typeRoots": [
+          "node_modules/@types"
+        ]
+  }
+}
